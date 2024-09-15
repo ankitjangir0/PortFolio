@@ -1,38 +1,87 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.Home{
+  background:linear-gradient(gray 25%,red 50%,wheat 80%);
+}
+
+
+.Nav{
+  background-color: black;
+  text-align: center;
+  padding: 1%;
+
+}
+.Nav a{
+  margin: 150px;
+  text-decoration: none;
+  font-style: italic;
+  color: aliceblue;
+}
+.Nav a:hover{
+color: wheat;
+font-weight: bold;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1{
+  margin-top: 1%;
+}
+.App p{
+  margin-top: 0.7%;
+}
+.App img{
+  margin-top: 3%;
+  border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App a img{
+  margin: 25px;
+  margin-top: 1.6%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App a img:hover{
+  transition: all 0.5s;
+  transform:scale(1.5);
 }
 
-.App-link {
-  color: #61dafb;
+.About{
+  background:linear-gradient(black 25% ,navy 50%,green 70% ,yellow 90%);
+  padding: 3.5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.About img{
+  border: 2px solid gray;
+  border-spacing: 5px;
+  border-radius: 25px;
+  width: 20%;
+  position: absolute;
+  margin-left: 55%;
 }
+.me{
+  margin-top: 5%;
+  color: antiquewhite;
+  margin-left: 10%;
+  margin-right: 50%;
+}
+
+.me p{
+  color: antiquewhite;
+  margin-top: 5%;
+  font-size: large;
+  font-style: oblique;
+}
+
+
+.skills{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 50%;
+}
+.skills li{
+  margin: 2%;
+}
+
